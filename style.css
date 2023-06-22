@@ -34,6 +34,7 @@ body {
 }
 
 .frame {
+    position: relative;
     margin-bottom: 30px;
     width: 250px;
     height: 150px;
@@ -52,6 +53,8 @@ body {
     text-align: center;
     margin-bottom: 30px;
     height: 50px;
+
+    cursor: pointer;
 }
 
 .items {
@@ -66,4 +69,22 @@ body {
     width: 80px;
     height: 40px;
     margin-right: 10px;
+}
+
+.copied {
+    position: absolute;
+    top: 60%;
+    left: 80%;
+    background-color: rgb(65, 155, 37);
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
