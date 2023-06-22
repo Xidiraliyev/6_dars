@@ -34,7 +34,7 @@ text.addEventListener("click", () => {
     copied.style.display = 'block';
     setTimeout(function(){
         copied.style.display = 'none'
-    }, 1000);
+    }, 800);
     
 });
 copied.style.display = 'none'
